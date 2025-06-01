@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: selenium-flask-scraper
+    env: docker
+    dockerfilePath: Dockerfile
+    plan: free
